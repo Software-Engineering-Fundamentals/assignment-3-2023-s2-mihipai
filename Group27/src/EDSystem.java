@@ -15,7 +15,7 @@ public class EDSystem {
         manager.respondEnquiry();
     }
 
-    public void respondEnquiry(Enquiry enquiry) {
+    public void enquiryResponse(Enquiry enquiry) {
         System.out.println("System respond enquiry with traceID to user.");
     }
 
