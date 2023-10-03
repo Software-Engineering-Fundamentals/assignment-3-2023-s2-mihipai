@@ -21,10 +21,10 @@ public class User {
     }
 
     public void createEnquiry() {
-        System.out.println("User Enquiry submitted to system.");
+        System.out.println("User Enquiry submitted to system."); // prints out message after creating Enquiry
     }
 
     public void trackEnquiry(Enquiry enquiry) {
-        System.out.println("User tracks enquiry with given traceID");
+        System.out.println("User tracks enquiry with given traceID"); // tracks the user enquiry upon reading the traceID
     }
 }
