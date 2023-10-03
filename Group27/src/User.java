@@ -20,8 +20,8 @@ public class User {
     private void reqCrsCancel() {
     }
 
-    public void doEnquiry() {
-        System.out.println("User submit Enquiry to system.");
+    public void createEnquiry() {
+        System.out.println("User Enquiry submitted to system.");
     }
 
     public void queryEnquiry(Enquiry enquiry) {

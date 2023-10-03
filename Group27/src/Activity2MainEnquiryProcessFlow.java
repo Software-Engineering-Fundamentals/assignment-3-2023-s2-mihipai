@@ -6,7 +6,7 @@ public class Activity2MainEnquiryProcessFlow {
 
         //User submit Enquiry to system.
 
-        user.doEnquiry();
+        user.createEnquiry();
         //system generate trace id for the enquiry.
         //system return traceID to user.
         edSystem.returnTraceID(enquiry);
