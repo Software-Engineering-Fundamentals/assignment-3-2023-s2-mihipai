@@ -14,7 +14,7 @@ public class Activity2MainEnquiryProcessFlow {
         //manager respond enquiry to system with traceID.
         edSystem.processEnquiry();
         //user track enquiry with traceID
-        user.queryEnquiry(enquiry);
+        user.trackEnquiry(enquiry);
         //system respond enquiry with traceID to user.
         edSystem.respondEnquiry(enquiry);
 

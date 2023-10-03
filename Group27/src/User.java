@@ -24,7 +24,7 @@ public class User {
         System.out.println("User Enquiry submitted to system.");
     }
 
-    public void queryEnquiry(Enquiry enquiry) {
-        System.out.println("user track enquiry with traceID");
+    public void trackEnquiry(Enquiry enquiry) {
+        System.out.println("User tracks enquiry with given traceID");
     }
 }
