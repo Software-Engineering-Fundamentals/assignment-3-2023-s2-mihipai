@@ -7,7 +7,7 @@ public class EDSystem {
 
     public void returnTraceID(Enquiry enquiry) {
         this.generateID(enquiry);
-        System.out.println("system return traceID to user.");
+        System.out.println("System returns traceID to user after lodging enquiry.");
     }
 
     public void processEnquiry() {
@@ -16,7 +16,7 @@ public class EDSystem {
     }
 
     public void respondEnquiry(Enquiry enquiry) {
-        System.out.println("system respond enquiry with traceID to user.");
+        System.out.println("System respond enquiry with traceID to user.");
     }
 
 

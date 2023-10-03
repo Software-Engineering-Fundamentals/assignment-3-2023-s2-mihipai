@@ -1,5 +1,5 @@
 public class Manager {
     public void respondEnquiry(){
-        System.out.println("manager respond enquiry to system with traceID.");
+        System.out.println("Manager responds to enquiry. System attaches enquiry to traceID and sends to user.");
     }
 }
